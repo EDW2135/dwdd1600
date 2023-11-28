@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en"> 
+    <head>
+        <meta charset="UTF-8">
+    <title>Shetland: Home</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;700&family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet"  type="text/css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Shetlandtvseries">
+        <meta name="author" content="Emily West">
+        <link rel="stylesheet" href="shetland.css"> 
+          <link rel="icon" type="image/x-icon" href="images/logoshetland.jpg">
+    </head>
+    <body> 
+        <!-- Start of the page header -->
+ <header>
+        <h1>Shetland a BBC Crime Drama Tv Series </h1>
+            <p>Shetland started in March 10, 2013, it has been a popular show on british television.</p>
+        
+        <!-- Start of the page navigation -->
+     <nav>
+         <ul>
+            <li><a href="index.html">Shetland Home</a></li>
+            <li><a href="author.html">Ann Cleeves </a></li>
+            <li><a href="filmlocations.html">Film locations</a></li>
+            <li><a href="actor.html">Cast Character</a></li>
+            <li class="active"><a href="form.html">New Updates</a></li>
+         </ul>
+    </nav>
+</header>
+    <!-- start the page main -->
+    <main>
+        
+        <h1>New Season</h1>
+        <p>Shetland season 8 sees Ashley Jensen taking over detecting duties from the previous lead, Douglas Henshall. Douglas, who has been with the series since the very beginning as DI Jimmy Perez, said goodbye to the series in season 7. Thankfully, that’s not the end of the show though, with Extras star Ashley coming into the hugely popular BBC crime drama. Ashley is teaming up on a case with Shetland regular Alison O’Donnell as Detective Inspector "Tosh" McIntosh.</p>
+        <h2>Request Updated News</h2>
+ <form method="get" class="myForm" action="thankyourequestform.html">
+<fieldset> 
+       <legend> Customer Information</legend>
+     <label>First Name*<input type="text" name="fname" required>
+     </label>
+     <label>Last Name*<input type="text" name="lname" required>
+     </label>
+     <label>Cell Number*<input type="tel" name="phone" placeholder="987-555-9843">
+     </label>
+    <label>Email*<input type="email" name="email" required placeholder="ShetlandCrimeNews@gmail.com">
+     </label>
+</fieldset>
+       
+<fieldset>
+  <legend>Subscription</legend>
+      <label><input type="radio" name="method" value="email">Email</label>
+    <label><input type="radio" name="method" value="social media">Social Media</label>
+    <label><input type="radio" name="method" value="text">Text</label>
+       </fieldset>
+     
+     
+      <fieldset>
+     <legend>Update Options</legend>
+        <label><input type="checkbox" name="new episodes" value="chosen">New Episode Alert</label>
+     <label><input type="checkbox" name="island news" value="chosen">Shetland Island News</label>
+  <label><input type="checkbox" name="episode reviews" value="chosen">New Episode Reviews</label><label><input type="checkbox" name="ann cleeves news" value="chosen">Ann Cleeves News</label>
+
+<label>Frequency of Updates<select name="time">
+    <option value="none">Please Select</option>    
+    <option value="daily">Daily</option> 
+    <option value="weekly">Weekly</option>    
+    <option value="monthly">Monthly</option>
+    <option value="yearly">Yearly</option>
+</select></label>
+ </fieldset>
+     
+     <label>Additional Information
+     <textarea name="comments">Please add any special instructions.</textarea>
+     </label>
+<input type="submit" value="Subscription Request"> </form>
+        
+    </main>
+    
+    <!-- start the page footer -->
+   <footer>
+        <p>&copy; 2023 &bull; Emily West &bull;<a href="mailto:emdanwest@gmail.com"> Email us</a> </p>
+        </footer> 
+        </body>
+    </html>
